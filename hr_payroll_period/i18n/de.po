@@ -19,18 +19,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "%(name)s Period #%(number)s"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "%s day of the current period"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "%s day of the next period"
@@ -43,6 +46,7 @@ msgid "Active"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "Annually (1)"
@@ -55,12 +59,14 @@ msgid "Basic Employee"
 msgstr "Angestellte"
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "Bi-monthly (6)"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "Bi-weekly (26)"
@@ -102,7 +108,6 @@ msgstr "Vertrag"
 #. module: hr_payroll_period
 #: model:ir.actions.server,name:hr_payroll_period.ir_cron_hr_payroll_period_ir_actions_server
 #: model:ir.cron,cron_name:hr_payroll_period.ir_cron_hr_payroll_period
-#: model:ir.cron,name:hr_payroll_period.ir_cron_hr_payroll_period
 msgid "Create Next Fiscal Year"
 msgstr ""
 
@@ -136,6 +141,7 @@ msgid "Current contract of the employee"
 msgstr "Vertrag"
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "Daily (365)"
@@ -154,6 +160,7 @@ msgid "Date of Payment"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid ""
@@ -206,12 +213,14 @@ msgid "End date"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "Fifth"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "First"
@@ -240,6 +249,7 @@ msgid "Following Week"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "Fourth"
@@ -251,6 +261,7 @@ msgid "Friday"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_payslip_run.py:0
 #: model_terms:ir.ui.view,arch_db:hr_payroll_period.hr_payslip_run_form
 #, python-format
@@ -302,6 +313,7 @@ msgid "Is HR period?"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "Last"
@@ -331,6 +343,7 @@ msgid "Monday"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "Monthly (12)"
@@ -415,6 +428,7 @@ msgid "Periods"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "Quarterly (4)"
@@ -460,6 +474,7 @@ msgid "Search Period"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "Second"
@@ -471,12 +486,14 @@ msgid "Second Following Week"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "Semi-annually (2)"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "Semi-monthly (24)"
@@ -512,6 +529,7 @@ msgid "The active field allows you to hide the date range without removing it."
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_payslip_run.py:0
 #, python-format
 msgid ""
@@ -520,6 +538,7 @@ msgid ""
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_payslip.py:0
 #, python-format
 msgid ""
@@ -528,12 +547,14 @@ msgid ""
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_payslip_run.py:0
 #, python-format
 msgid "The payslip batch %s still has unconfirmed payslips."
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_payslip_run.py:0
 #, python-format
 msgid ""
@@ -543,6 +564,7 @@ msgid ""
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "Third"
@@ -592,18 +614,21 @@ msgid "Weekday of Payment"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "Weekly (52)"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_period.py:0
 #, python-format
 msgid "You can not set to draft a period that already has payslips computed"
 msgstr ""
 
 #. module: hr_payroll_period
+#. odoo-python
 #: code:addons/hr_payroll_period/models/hr_fiscal_year.py:0
 #, python-format
 msgid "You must create periods before confirming the fiscal year."
